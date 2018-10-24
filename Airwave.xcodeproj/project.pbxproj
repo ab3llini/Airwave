@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D30051751F24ECB100204099 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30051741F24ECB100204099 /* ScanViewController.swift */; };
+		D300517A1F24F12B00204099 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30051781F24F12B00204099 /* MainViewController.swift */; };
+		D300517B1F24F12B00204099 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D30051791F24F12B00204099 /* MainViewController.xib */; };
+		D300517F1F24F29600204099 /* SlideAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D300517E1F24F29600204099 /* SlideAnimator.swift */; };
+		D35BF16B1F214C2C005868CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35BF16A1F214C2C005868CD /* AppDelegate.swift */; };
+		D35BF16F1F214C2C005868CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35BF16E1F214C2C005868CD /* Assets.xcassets */; };
+		D35BF1721F214C2C005868CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35BF1701F214C2C005868CD /* Main.storyboard */; };
+		D35BF17D1F214C2C005868CD /* AirwaveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35BF17C1F214C2C005868CD /* AirwaveTests.swift */; };
+		D35BF1881F214C2C005868CD /* AirwaveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35BF1871F214C2C005868CD /* AirwaveUITests.swift */; };
+		D35BF1981F214D21005868CD /* IEEE80211IE.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35BF1971F214D21005868CD /* IEEE80211IE.swift */; };
+		D35BF19A1F214E3E005868CD /* WirelessUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35BF1991F214E3E005868CD /* WirelessUtility.swift */; };
+		D36B13831F2215A40032275B /* IEEE80211FrameElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36B13821F2215A40032275B /* IEEE80211FrameElement.swift */; };
+		D36B13851F2221A70032275B /* IEEE80211Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36B13841F2221A70032275B /* IEEE80211Decoder.swift */; };
+		D36B13871F223E990032275B /* WaveIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36B13861F223E990032275B /* WaveIndicator.swift */; };
+		D36B138B1F2255280032275B /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36B138A1F2255280032275B /* WindowController.swift */; };
+		D3F57EA71F265DCC007E327A /* NetworkCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F57EA61F265DCC007E327A /* NetworkCellView.swift */; };
+		D3F5AA481F3E059700FBC08B /* NetworkTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F5AA471F3E059700FBC08B /* NetworkTable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D35BF1791F214C2C005868CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D35BF15F1F214C2B005868CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D35BF1661F214C2B005868CD;
+			remoteInfo = Airwave;
+		};
+		D35BF1841F214C2C005868CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D35BF15F1F214C2B005868CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D35BF1661F214C2B005868CD;
+			remoteInfo = Airwave;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D30051741F24ECB100204099 /* ScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		D30051781F24F12B00204099 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../MainViewController.swift; sourceTree = "<group>"; };
+		D30051791F24F12B00204099 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainViewController.xib; path = ../MainViewController.xib; sourceTree = "<group>"; };
+		D300517E1F24F29600204099 /* SlideAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideAnimator.swift; sourceTree = "<group>"; };
+		D35BF1671F214C2B005868CD /* Airwave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Airwave.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35BF16A1F214C2C005868CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D35BF16E1F214C2C005868CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D35BF1711F214C2C005868CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D35BF1731F214C2C005868CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D35BF1781F214C2C005868CD /* AirwaveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirwaveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35BF17C1F214C2C005868CD /* AirwaveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirwaveTests.swift; sourceTree = "<group>"; };
+		D35BF17E1F214C2C005868CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D35BF1831F214C2C005868CD /* AirwaveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirwaveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35BF1871F214C2C005868CD /* AirwaveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirwaveUITests.swift; sourceTree = "<group>"; };
+		D35BF1891F214C2C005868CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D35BF1971F214D21005868CD /* IEEE80211IE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IEEE80211IE.swift; sourceTree = "<group>"; };
+		D35BF1991F214E3E005868CD /* WirelessUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WirelessUtility.swift; sourceTree = "<group>"; };
+		D36B13821F2215A40032275B /* IEEE80211FrameElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IEEE80211FrameElement.swift; sourceTree = "<group>"; };
+		D36B13841F2221A70032275B /* IEEE80211Decoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IEEE80211Decoder.swift; sourceTree = "<group>"; };
+		D36B13861F223E990032275B /* WaveIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveIndicator.swift; sourceTree = "<group>"; };
+		D36B138A1F2255280032275B /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		D3F57EA61F265DCC007E327A /* NetworkCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkCellView.swift; sourceTree = "<group>"; };
+		D3F5AA471F3E059700FBC08B /* NetworkTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D35BF1641F214C2B005868CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35BF1751F214C2C005868CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35BF1801F214C2C005868CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D300517C1F24F1DF00204099 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D30051741F24ECB100204099 /* ScanViewController.swift */,
+				D30051781F24F12B00204099 /* MainViewController.swift */,
+				D3F5AA471F3E059700FBC08B /* NetworkTable.swift */,
+				D30051791F24F12B00204099 /* MainViewController.xib */,
+				D3F57EA61F265DCC007E327A /* NetworkCellView.swift */,
+				D300517E1F24F29600204099 /* SlideAnimator.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D300517D1F24F20F00204099 /* IEEE80211 */ = {
+			isa = PBXGroup;
+			children = (
+				D36B13821F2215A40032275B /* IEEE80211FrameElement.swift */,
+				D36B13841F2221A70032275B /* IEEE80211Decoder.swift */,
+				D35BF1971F214D21005868CD /* IEEE80211IE.swift */,
+			);
+			name = IEEE80211;
+			sourceTree = "<group>";
+		};
+		D35BF15E1F214C2B005868CD = {
+			isa = PBXGroup;
+			children = (
+				D35BF1691F214C2B005868CD /* Airwave */,
+				D35BF17B1F214C2C005868CD /* AirwaveTests */,
+				D35BF1861F214C2C005868CD /* AirwaveUITests */,
+				D35BF1681F214C2B005868CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D35BF1681F214C2B005868CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D35BF1671F214C2B005868CD /* Airwave.app */,
+				D35BF1781F214C2C005868CD /* AirwaveTests.xctest */,
+				D35BF1831F214C2C005868CD /* AirwaveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35BF1691F214C2B005868CD /* Airwave */ = {
+			isa = PBXGroup;
+			children = (
+				D300517D1F24F20F00204099 /* IEEE80211 */,
+				D300517C1F24F1DF00204099 /* ViewControllers */,
+				D35BF16A1F214C2C005868CD /* AppDelegate.swift */,
+				D36B138A1F2255280032275B /* WindowController.swift */,
+				D35BF1991F214E3E005868CD /* WirelessUtility.swift */,
+				D36B13861F223E990032275B /* WaveIndicator.swift */,
+				D35BF16E1F214C2C005868CD /* Assets.xcassets */,
+				D35BF1701F214C2C005868CD /* Main.storyboard */,
+				D35BF1731F214C2C005868CD /* Info.plist */,
+			);
+			path = Airwave;
+			sourceTree = "<group>";
+		};
+		D35BF17B1F214C2C005868CD /* AirwaveTests */ = {
+			isa = PBXGroup;
+			children = (
+				D35BF17C1F214C2C005868CD /* AirwaveTests.swift */,
+				D35BF17E1F214C2C005868CD /* Info.plist */,
+			);
+			path = AirwaveTests;
+			sourceTree = "<group>";
+		};
+		D35BF1861F214C2C005868CD /* AirwaveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D35BF1871F214C2C005868CD /* AirwaveUITests.swift */,
+				D35BF1891F214C2C005868CD /* Info.plist */,
+			);
+			path = AirwaveUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D35BF1661F214C2B005868CD /* Airwave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D35BF18C1F214C2C005868CD /* Build configuration list for PBXNativeTarget "Airwave" */;
+			buildPhases = (
+				D35BF1631F214C2B005868CD /* Sources */,
+				D35BF1641F214C2B005868CD /* Frameworks */,
+				D35BF1651F214C2B005868CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Airwave;
+			productName = Airwave;
+			productReference = D35BF1671F214C2B005868CD /* Airwave.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D35BF1771F214C2C005868CD /* AirwaveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D35BF18F1F214C2C005868CD /* Build configuration list for PBXNativeTarget "AirwaveTests" */;
+			buildPhases = (
+				D35BF1741F214C2C005868CD /* Sources */,
+				D35BF1751F214C2C005868CD /* Frameworks */,
+				D35BF1761F214C2C005868CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D35BF17A1F214C2C005868CD /* PBXTargetDependency */,
+			);
+			name = AirwaveTests;
+			productName = AirwaveTests;
+			productReference = D35BF1781F214C2C005868CD /* AirwaveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D35BF1821F214C2C005868CD /* AirwaveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D35BF1921F214C2C005868CD /* Build configuration list for PBXNativeTarget "AirwaveUITests" */;
+			buildPhases = (
+				D35BF17F1F214C2C005868CD /* Sources */,
+				D35BF1801F214C2C005868CD /* Frameworks */,
+				D35BF1811F214C2C005868CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D35BF1851F214C2C005868CD /* PBXTargetDependency */,
+			);
+			name = AirwaveUITests;
+			productName = AirwaveUITests;
+			productReference = D35BF1831F214C2C005868CD /* AirwaveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D35BF15F1F214C2B005868CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Alberto Mario Bellini";
+				TargetAttributes = {
+					D35BF1661F214C2B005868CD = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7E7F4Y64R6;
+						ProvisioningStyle = Automatic;
+					};
+					D35BF1771F214C2C005868CD = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7E7F4Y64R6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D35BF1661F214C2B005868CD;
+					};
+					D35BF1821F214C2C005868CD = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7E7F4Y64R6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D35BF1661F214C2B005868CD;
+					};
+				};
+			};
+			buildConfigurationList = D35BF1621F214C2B005868CD /* Build configuration list for PBXProject "Airwave" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D35BF15E1F214C2B005868CD;
+			productRefGroup = D35BF1681F214C2B005868CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D35BF1661F214C2B005868CD /* Airwave */,
+				D35BF1771F214C2C005868CD /* AirwaveTests */,
+				D35BF1821F214C2C005868CD /* AirwaveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D35BF1651F214C2B005868CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35BF16F1F214C2C005868CD /* Assets.xcassets in Resources */,
+				D300517B1F24F12B00204099 /* MainViewController.xib in Resources */,
+				D35BF1721F214C2C005868CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35BF1761F214C2C005868CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35BF1811F214C2C005868CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D35BF1631F214C2B005868CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36B13831F2215A40032275B /* IEEE80211FrameElement.swift in Sources */,
+				D36B13851F2221A70032275B /* IEEE80211Decoder.swift in Sources */,
+				D35BF19A1F214E3E005868CD /* WirelessUtility.swift in Sources */,
+				D36B13871F223E990032275B /* WaveIndicator.swift in Sources */,
+				D3F5AA481F3E059700FBC08B /* NetworkTable.swift in Sources */,
+				D300517F1F24F29600204099 /* SlideAnimator.swift in Sources */,
+				D35BF1981F214D21005868CD /* IEEE80211IE.swift in Sources */,
+				D3F57EA71F265DCC007E327A /* NetworkCellView.swift in Sources */,
+				D36B138B1F2255280032275B /* WindowController.swift in Sources */,
+				D300517A1F24F12B00204099 /* MainViewController.swift in Sources */,
+				D35BF16B1F214C2C005868CD /* AppDelegate.swift in Sources */,
+				D30051751F24ECB100204099 /* ScanViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35BF1741F214C2C005868CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35BF17D1F214C2C005868CD /* AirwaveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35BF17F1F214C2C005868CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35BF1881F214C2C005868CD /* AirwaveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D35BF17A1F214C2C005868CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D35BF1661F214C2B005868CD /* Airwave */;
+			targetProxy = D35BF1791F214C2C005868CD /* PBXContainerItemProxy */;
+		};
+		D35BF1851F214C2C005868CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D35BF1661F214C2B005868CD /* Airwave */;
+			targetProxy = D35BF1841F214C2C005868CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D35BF1701F214C2C005868CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D35BF1711F214C2C005868CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D35BF18A1F214C2C005868CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D35BF18B1F214C2C005868CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		D35BF18D1F214C2C005868CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7E7F4Y64R6;
+				INFOPLIST_FILE = Airwave/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.albertobellini.Airwave;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D35BF18E1F214C2C005868CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7E7F4Y64R6;
+				INFOPLIST_FILE = Airwave/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.albertobellini.Airwave;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D35BF1901F214C2C005868CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7E7F4Y64R6;
+				INFOPLIST_FILE = AirwaveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.albertobellini.AirwaveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Airwave.app/Contents/MacOS/Airwave";
+			};
+			name = Debug;
+		};
+		D35BF1911F214C2C005868CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7E7F4Y64R6;
+				INFOPLIST_FILE = AirwaveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.albertobellini.AirwaveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Airwave.app/Contents/MacOS/Airwave";
+			};
+			name = Release;
+		};
+		D35BF1931F214C2C005868CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7E7F4Y64R6;
+				INFOPLIST_FILE = AirwaveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.albertobellini.AirwaveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Airwave;
+			};
+			name = Debug;
+		};
+		D35BF1941F214C2C005868CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7E7F4Y64R6;
+				INFOPLIST_FILE = AirwaveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.albertobellini.AirwaveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Airwave;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D35BF1621F214C2B005868CD /* Build configuration list for PBXProject "Airwave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35BF18A1F214C2C005868CD /* Debug */,
+				D35BF18B1F214C2C005868CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D35BF18C1F214C2C005868CD /* Build configuration list for PBXNativeTarget "Airwave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35BF18D1F214C2C005868CD /* Debug */,
+				D35BF18E1F214C2C005868CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D35BF18F1F214C2C005868CD /* Build configuration list for PBXNativeTarget "AirwaveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35BF1901F214C2C005868CD /* Debug */,
+				D35BF1911F214C2C005868CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D35BF1921F214C2C005868CD /* Build configuration list for PBXNativeTarget "AirwaveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35BF1931F214C2C005868CD /* Debug */,
+				D35BF1941F214C2C005868CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D35BF15F1F214C2B005868CD /* Project object */;
+}
